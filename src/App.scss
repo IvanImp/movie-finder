@@ -14,7 +14,6 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -26,6 +25,31 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-input {
+  height: 36px;
+  width: 500px;
+  padding-left: 18px;
+  padding-right: 18px;
+  font-size: 18px;
+}
+
+.search-button {
+  color: #ffffff;
+  background-color: #396eff;
+  border: 0;
+  border-radius: 3px;
+  margin-left: 10px;
+  height: 30px;
+  width: 75px;
 }
 
 @keyframes App-logo-spin {
